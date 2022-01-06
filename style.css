@@ -2,6 +2,14 @@ body {
 	margin: 0;
 }
 
+.font1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fotn2 {
+	font-family: 'Bebas Neue', cursive;
+}
+
 section {
 	height: 100vh;
 	width: 100%;
@@ -13,6 +21,53 @@ section {
 
 .home-section {
 	background-image: url(images/bg\ image\ 1.jpg);
+
+}
+
+.icon1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon1 img {
+	width: 60%;
+
+}
+
+.icon2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon2 img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar {
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	height: 90px;
+	left: 3%;
+	right: 3%;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav a {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 .battle-section {
