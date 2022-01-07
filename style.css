@@ -50,10 +50,12 @@ section {
 	position: fixed;
 	display: flex;
 	justify-content: space-around;
-	height: 90px;
-	left: 3%;
-	right: 3%;
+	height: 85px;
+	/* left: 3%;
+	right: 3%; */
 	z-index: 3;
+	background-color: rgba(0, 0, 0, 0.607);
+	width: 100%;
 }
 
 .nav {
