@@ -23,6 +23,7 @@ section {
 	background-attachment: fixed;
 }
 
+/* --------------------Home section---------------------------- */
 .home-section {
 	background-image: url(images/bg\ image\ 1.jpg);
 
@@ -176,7 +177,54 @@ form {
 	color: #1A1917;
 }
 
-
+/* ---------------------------Battle section---------------------- */
 .battle-section {
 	background-image: url(images/bg\ image\ 2.jpg);
+	opacity: 0.95;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.battle {
+	display: flex;
+	height: 60%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid white;
+	margin-top: 6%;
+	color: white;
+}
+
+.half-width {
+	width: 45%;
+	height: 80%;
+	border: 1px solid red;
+}
+
+.half-width img {
+	width: 40%;
+}
+
+.battle-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.battle-title {
+	border: 1px solid rgb(175, 6, 127);
+}
+
+.battle-details {
+	border: 1px solid rgb(28, 184, 11);
+}
+
+/* ----------------------------Feature section----------------------- */
+.feature-section {
+	background-image: url(images/bg\ image\ 3.png);
+	opacity: 0.85;
+
 }
